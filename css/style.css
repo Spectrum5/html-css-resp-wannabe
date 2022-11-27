@@ -130,6 +130,7 @@ img {
 
 
  /* Tablet */
+
 @media screen and (max-width:768px) {
 
     .container {
@@ -137,3 +138,36 @@ img {
     }
 
 }
+
+/* Mobile */
+
+@media screen and (max-width:480px) {
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .col {
+        flex-basis: 100%;
+        padding: 3rem;
+    }
+
+    .steps {
+        margin-bottom: 0;
+    }
+
+    .why-us {
+        background-color: #222222;
+        padding: 3rem 0;
+        margin-bottom: 0;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        margin: 0;
+    }
+}
+
